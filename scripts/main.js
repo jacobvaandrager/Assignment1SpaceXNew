@@ -36,12 +36,16 @@ moveNow();
 
 function accelerate(){
 
+	if(keepGoing == true){
+
 ship.parameters.movement += 30;
 ship.environment.distanceTraveled += 10;
 ship.parameters.fuel -= 150;
 
 document.getElementById("movement").innerHTML = ship.parameters.movement;
 document.getElementById("distanceTraveled").innerHTML = ship.environment.distanceTraveled;
+
+}
 
 }
 
