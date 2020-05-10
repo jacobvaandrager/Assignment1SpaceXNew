@@ -122,7 +122,7 @@ function noFuel1(){
 	keepGoing = false;
 	console.log("nofuel");
 
-	alert("Oops.. Luckily I wasn't onboard - Elon <3");
+	alert("\n         ***** Spaceship Destroyed ***** \n \n \n    Oops.. Luckily I wasn't onboard - Elon");
 	
 	ship.parameters.fuel = "ERROR";
 	ship.parameters.throttle = "ERROR";
