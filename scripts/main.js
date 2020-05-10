@@ -106,7 +106,7 @@ function blowUp(){
 
 	blowup = true;
 	console.log("blowup");
-	ship.parameters.fuel = ship.parameters.fuel- 289998400;
+	ship.parameters.fuel = ship.parameters.fuel- 289998000;
 	document.getElementById("fuel").innerHTML = ship.parameters.fuel;
 	alert('Error 329bc: Fuel Hatch Destroyed');
 
